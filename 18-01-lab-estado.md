@@ -326,9 +326,8 @@ class PanelCodigoSecreto extends Component {
       codigoActual: ''
     }
   }
-```
+
 handleClick(event) {
-```tsx
 const teclaPulsada = event.target.textContent;
 const { codigoActual, codigoSecreto } = this.state;
 
